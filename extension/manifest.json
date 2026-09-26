@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Double Check",
+  "version": "0.1.0",
+  "description": "Cross-checks permit fields between an audit page and a state permit portal.",
+
+  "action": {
+    "default_title": "Double Check",
+    "default_popup": "popup/popup.html"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "double-check@maschleidt.local",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
