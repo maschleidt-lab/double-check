@@ -1,0 +1,14 @@
+# Windows clutter
+Thumbs.db
+Desktop.ini
+
+# Editor settings (personal, not project)
+.vscode/
+
+# Tool output, for later if we add web-ext/Node
+node_modules/
+web-ext-artifacts/
+
+# SAFETY: anything real from work goes here and is never committed
+private/
+*.har
