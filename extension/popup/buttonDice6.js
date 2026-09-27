@@ -1,0 +1,1 @@
+console.log("buttonDice6.js loaded");
