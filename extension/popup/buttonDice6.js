@@ -2,14 +2,13 @@
 // Variable to store the paragraph element where the result will be displayed
 let dice6Result = document.getElementById("dice6Result");
 // Variable to store the keybind for rolling the dice
-let diceKeybind = "d"
+let diceKeybind = "d";
 // #endregion
 
 // #region ##### FUNCTIONS ##### 
 
 // Function to generate a random number between 1 and 6
-function rollDice6() 
-{
+function rollDice6() {
 let randomNumber6 = Math.floor(Math.random() * 6) + 1;
 dice6Result.textContent = "You rolled a " + randomNumber6 + " on a 6-sided die.";
 }
@@ -23,4 +22,5 @@ document.addEventListener("keydown", function(event) {
     if (event.key.toLowerCase() === diceKeybind) {
         rollDice6();
     }
+})
 // #endregion
